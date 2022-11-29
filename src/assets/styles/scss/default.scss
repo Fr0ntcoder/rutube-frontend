@@ -1,0 +1,24 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+.redux {
+	.toaster {
+		box-shadow: $shadow-default;
+		background-color: #272532;
+		&.rrt-success {
+			background-color: #56db8b;
+		}
+		&.rrt-warning {
+			background-color: #eaa84c;
+		}
+		&.rrt-info {
+			background-color: #4b85e7;
+		}
+		&.rrt-error {
+			background-color: #e94d4d;
+		}
+	}
+}
