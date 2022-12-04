@@ -1,6 +1,9 @@
-import Head from 'next/head';
-import Image from 'next/image';
+import { NextPage } from 'next';
 
-export default function Home() {
-	return <div>777</div>;
-}
+import Home from '@/components/pages/home/Home';
+
+const HomePage: NextPage = () => {
+	return <Home />;
+};
+
+export default HomePage;

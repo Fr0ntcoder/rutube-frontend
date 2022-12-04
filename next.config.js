@@ -11,7 +11,7 @@ const nextConfig = {
 	},
 	sassOptions: {
 		includePaths: ['./src'],
-		prependData: `@import "@/assets/styles/scss/variables/index.scss";`
+		prependData: `@import "@/assets/styles/variables/index.scss";`
 	},
 	async rewrites() {
 		return [
