@@ -3,6 +3,11 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Ubuntu', sans-serif;
+	background: $color-dark;
+}
+button,
+input {
+	font-family: 'Ubuntu', sans-serif;
 }
 .redux {
 	.toaster {

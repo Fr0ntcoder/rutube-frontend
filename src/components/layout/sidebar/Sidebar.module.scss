@@ -1,0 +1,22 @@
+.sidebar {
+	display: block;
+	width: 12%;
+}
+.logo {
+	display: inline-block;
+	font-size: 25px;
+	font-weight: bolder;
+	margin-bottom: 50px;
+	color: #fff;
+}
+.copy {
+	line-height: 1.6;
+	color: $color-gray-600;
+	& a {
+		margin-left: 5px;
+		color: $color-gray-600;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

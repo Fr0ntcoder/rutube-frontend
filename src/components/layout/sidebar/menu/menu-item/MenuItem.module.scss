@@ -1,0 +1,46 @@
+.item {
+	position: relative;
+	margin-bottom: 30px;
+	&::before {
+		position: absolute;
+		top: 0;
+		left: -33px;
+		content: '';
+		display: block;
+		width: 3px;
+		height: 100%;
+		transition: all 0.2s ease-in-out;
+		background: $color-primary;
+	}
+	&:hover::before {
+		left: -30px;
+	}
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+.link {
+	display: flex;
+	font-weight: 500;
+	align-items: center;
+	color: $color-gray-500;
+	&.active {
+		& .icon {
+			background: $color-primary;
+			color: #fff;
+		}
+		& .text {
+			color: #fff;
+		}
+	}
+}
+.icon {
+	display: flex;
+	width: 30px;
+	height: 30px;
+	margin-right: 15px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	background: $color-gray-800;
+}
